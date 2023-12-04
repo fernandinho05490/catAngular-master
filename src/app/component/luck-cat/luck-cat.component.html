@@ -1,0 +1,9 @@
+<div class="container">
+  <h1 class="text-center">Luck cat</h1>
+  <div class="d-flex align-items-center justify-content-center ">
+    <div class="col-md-6 ">
+      <img *ngIf="cat && cat.url" [src]="cat.url" class="card-img-top" alt="Cat Image">
+    </div>
+    <h1 class="mx-3"><strong>Your luck cat say to u: </strong> <span appStaticMessage></span></h1>
+  </div>
+</div>
