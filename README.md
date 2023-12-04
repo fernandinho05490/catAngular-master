@@ -24,7 +24,6 @@
 - API das fotos dos gatos localizada em (services/lucky.service.ts)
 
 ### Pipes
-- 
 - uppercase: Transforma o titulo das box de gatos em maiusculo. (home/home.components.html)
 - titlecase: Formata o nome do gato para primeira letra maior e o resto minusculo.(cat-breeds/cat-breeds.components.html)
 
